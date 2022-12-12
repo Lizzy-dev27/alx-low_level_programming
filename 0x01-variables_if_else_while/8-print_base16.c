@@ -4,7 +4,7 @@
 /**
  * mian - print all the numbers of base 16 in lowercase
  *
- * Return: 0 (S uccess)
+ * Return: 0 (Success)
  */
 
 int main(void)

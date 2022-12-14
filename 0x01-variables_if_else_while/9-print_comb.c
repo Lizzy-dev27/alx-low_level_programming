@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - return numbers from 0 to 9 separated by a coma followed by space
+ * main - print numbers from 0 to 9 separated by a coma followed by space
  *
  * Return: Always 0 (Success)
  */ 
 
 int main(void)
+
 {
 	int num = '0';
 

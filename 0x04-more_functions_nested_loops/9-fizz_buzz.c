@@ -1,23 +1,25 @@
 #include "main.h"
 
 /**
- * print_square - prints square
- * @size: param
+ * main - fizbuzz
+ * Return: 0
  */
 
-void print_square(int size)
+int main(void)
 {
-	int i = 0, j;
+	int i;
 
-	if (size > 0)
+	for (i = 1; i < 100; i++)
 	{
-		for (; i < size; i++)
-		{
-			for (j = 0; j < size; j++)
-				_putchar(35);
-			_putchar('\n');
-		}
+		if (i % 3 == 0 && i % 5 == 0)
+			printf("FizzBuzz ");
+		else if (i % 3 == 0)
+			printf("Fizz ");
+		else if (i % 5 == 0)
+			printf("Buzz ");
+		else
+			printf("%d ", i);
 	}
-	else
-		_putchar('\n');
+	printf("Buzz\n");
+	return (0);
 }

@@ -2,10 +2,8 @@
 #include "main.h"
 
 /**
- * swap_int - a function that swaps the values of two integers.
- * @a: first value to be provided
- * @b: Second parameter to be provided
- * int c: addressed the swapped value will be sent to
+ * reset_to_98 - update pointer value to 98
+ * @n: parameter to be provided
  * Return: Always 0 (Success)
  */
 

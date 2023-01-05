@@ -1,8 +1,3 @@
-/*
- * 3-factorial.c
- * Auth: sam
- */
-
 #include "main.h"
  /**
   * factorial - returns the factorial of a given number
